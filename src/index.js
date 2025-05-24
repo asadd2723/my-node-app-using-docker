@@ -9,7 +9,7 @@ const schema = buildSchema(`
 `);
 
 const root = {
-  hello: () => 'Hello from GraphQL!',
+  hello: () => 'Hello from GraphQL!................',
 };
 
 const app = express();
